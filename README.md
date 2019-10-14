@@ -21,11 +21,31 @@ Buatlah infrastruktur basis data terdistribusi menggunakan skema replikasi multi
 
 ## Desain dan Implementasi Infrastruktur
 ### Desain infrastruktur basis data terdistribusi + load balancing
-![Design dari infrastruktur BDT](Design.png)
+![Design dari infrastruktur BDT](Pic/Design.png)
 
-
+Ada 4 server dalam desain infrastruktur ini:
+	- Database Server
+		1. Database Server 1
+			- OS = ```Ubuntu 16.04```
+			- RAM = ```1024 MB```
+			- IP = ```192.168.17.65```
+		2. Database Server 2
+			- OS = ```Ubuntu 16.04```
+			- RAM = ```1024 MB```
+			- IP = ```192.168.17.66```
+		3. Database Server 3
+			- OS = ```Ubuntu 16.04```
+			- RAM = ```1024 MB```
+			- IP = ```192.168.17.67```
+	- Load Balancer
+		1. Load Balancer / Proxy Server
+			- OS = ```Ubuntu 16.04```
+			- RAM = ```1024 MB```
+			- IP = ```192.168.17.68``` 
 
 ### Implementasi infrastruktur basis data terdistribusi
+
+
 
 ## Penggunaan Basis Data Terdistribusi dalam Aplikasi
 
